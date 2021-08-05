@@ -28,10 +28,16 @@ body{
     height: 180px;
     background-color: lavender;
     margin: 2rem 35rem;
-    
+    border: 2px solid lightslategray;    
 }
 
+.grid{
+    display: grid;
+}
+
+
 a div:hover{
-    border: 2px solid var(--secondary-color);
+    border: 6px solid var(--primary-color);
+    background-color: var(--secondary-color);
 
 }
